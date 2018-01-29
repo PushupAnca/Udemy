@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no,
+	initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>TIPOS DE DATOS</title>
+	<!-- <link rel="stylesheet" href="css/.css"> -->
+</head>
+<body>
+<script type="text/javascript">
+	
+// var numero1 = 13;
+// var numero2 = 5;
+// var procentaje = numero1 % numero2 
+
+// document.write(procentaje)
+// igual a tres -> nos da lo que sobra, en esta operación sobra 3 
+
+// var numero = 5;
+// var resultado = --numero;
+// document.write(resultado)
+// el decremento resta al valor del mismo numero que asignamos al "var"
+
+
+// var numero = 6;
+// var resultado = ++numero;
+// document.write(resultado)
+// el incremento suma al valor del mismo numero que asignamos al "var"
+
+// document.write("numero++ / al final ")
+// var numero = 6;
+// var resultado = numero++;
+// cuando se ponen el operador "++, --" al final el resultado sigue teniendo el valor del numero, 
+//no llega a incrementar por que se esta incrementando despues de ejecutar la linea de codigo "resultado" 
+//pero la siguenete linea "numero" ya vale el valor del numero mas el incremento 
+// document.write(resultado)
+// document.write("<br>")
+// document.write(numero)
+// console.log("numero " + numero)
+// console.log("resultado " + resultado)
+
+// document.write("comparadores")
+// document.write("<br>")
+// var numero1 = 6;
+// var numero2 = 6;
+// var resultado = numero1 == numero2 ;
+// document.write(resultado)
+
+
+// document.write("comparadores, igual en tipo y valor")
+// document.write("<br>")
+// var numero1 = 6;
+// var numero2 = "6";
+// var resultado = numero1 === numero2 ; //true // false
+// document.write(resultado)
+
+
+// document.write("!=  / diferente ")
+// document.write("<br>")
+// var numero1 = 50;
+// var numero2 = 50;
+// var resultado = numero1 != numero2 ; // false
+// document.write(resultado)
+
+
+// document.write("!==  / diferente en valor y tipo ")
+// document.write("<br>")
+// var numero1 = 50;
+// var numero2 = '50';
+// var resultado = numero1 !== numero2 ; // true
+// document.write(resultado)
+
+// document.write("> mayor")
+// document.write("<br>")
+// var numero1 = 5;
+// var numero2 = 10;
+// var resultado = numero1 > numero2 ; // false
+// document.write(resultado)
+
+
+document.write("<br>")
+
+// document.write("< menor")
+// document.write("<br>")
+// var numero1 = 5;
+// var numero2 = 10;
+// var resultado = numero1 < numero2 ; // true
+// document.write(resultado)
+
+
+
+// document.write("< = menor o igual ")
+// document.write("<br>")
+// var numero1 = 10;
+// var numero2 = 10;
+// var resultado = numero1 <= numero2 ; // true
+// document.write(resultado)
+
+
+
+// document.write("> = mayor o igual ")
+// document.write("<br>")
+// var numero1 = 10;
+// var numero2 = 12;
+// var resultado = numero1 >= numero2 ; // true
+// document.write(resultado)
+
+
+
+
+// document.write("aray")
+// document.write("<br>")
+// var amigos = ["Carlos", " Alejandro", " Ana"] 
+// document.write(amigos)
+// document.write("<br>")
+// document.write(amigos[1])
+
+// document.write("<br>")
+// var amigos1 = [];
+//     amigos1 [0] = "Ana",
+//     amigos1 [1] = " Flor";
+// document.write(amigos1)
+
+
+var amigos = ["pop", " Carlos", " Alejandro", " Ana", " length"] 
+
+// metodo Length
+
+document.write(amigos.length);
+document.write("<br> ")
+// metodo join / se añade * delante del nombre
+document.write(amigos.join("* "));
+
+document.write("<br> ")
+// metodo pop / eliminamos el ultimo valor de el array
+document.write(amigos.pop());
+
+
+document.write("<br> ")
+// metodo push añadir un valor el final de la array
+document.write(amigos.push(" Push"));
+console.log(amigos)
+document.write("<br>")
+document.write(amigos);
+
+
+document.write("<br>")
+// metodo shift / eliminamos el primer elemento de una array
+amigos.shift()
+document.write(amigos);
+console.log(amigos)
+
+
+document.write("<br> ")
+// metodo shunift / añade elemento ala principio de la array 
+amigos.unshift("unshift")
+console.log(amigos)
+
+document.write("<br>")
+document.write(amigos);
+
+document.write("<br> ")
+// metodo concat / concatena dos array 
+amigos2 = [" Belen", " Bianca", " Flor"]
+todosAmigos = amigos.concat(amigos2)
+document.write(todosAmigos.join(" * "))
+console.log(amigos)
+document.write("<br>")
+
+
+document.write("<br> ")
+// metodo sort / concatena dos array 
+// amigos2 = [" Belen", " Bianca", " Flor"]
+// todosAmigos = amigos.concat(amigos2)
+amigos.sort();
+document.write(amigos)
+console.log(amigos)
+document.write("<br>")
+
+
+document.write("<br> ")
+// metodo reverse / concatena dos array 
+// amigos2 = [" Belen", " Bianca", " Flor"]
+// todosAmigos = amigos.concat(amigos2)
+amigos.reverse();
+document.write(amigos)
+console.log(amigos)
+document.write("<br>")
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>

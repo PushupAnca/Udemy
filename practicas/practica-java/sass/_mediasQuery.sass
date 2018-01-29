@@ -1,0 +1,47 @@
+$break-small-tablet: 694px
+$break-large-tablet: 768px
+
+$break-large-movile: 694px
+$break-small-movile: 425px
+
+
+
+@media (max-width : $break-large-tablet)
+	.navBar
+		background: $color-Header-Footer
+		position: relative
+		height: auto
+	#myNavbar
+		ul 
+			li
+				padding: 2px
+				margin: 5px
+				display: block
+				border-bottom: 1px solid #c9c2c2
+	#myNavbar
+		ul
+			li
+				a
+					padding: 0px
+	.contPrimcipal
+		.datos
+			margin-top: 10px
+	.datosPersonales
+		p
+			font-size: 17px
+
+@media (max-width : $break-large-movile)
+	.contPrimcipal
+		.datos
+			.imgDatos
+				img
+					padding: 0px
+	.datosPersonales
+		p
+			font-size: 14px
+			line-height: 14px
+	.datos
+		.imgDatos
+			padding: 0px
+	.verSection2
+		padding-left: 0px

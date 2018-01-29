@@ -1,0 +1,17 @@
+
+
+.caja{
+	width: 200px;
+	height: 200px;
+	background: blue;
+	margin: 10px;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	font-size: 30px;
+	padding: 5px;
+	cursor: pointer;
+}
+.negro{
+	background: #000;
+}

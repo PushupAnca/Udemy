@@ -1,0 +1,10 @@
+
+.caja{
+	width: 200px;
+	height: 200px;
+	background: blue;
+	margin: 10px;
+	color: #fff;
+	display: inline-block;
+
+}

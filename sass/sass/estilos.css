@@ -1,0 +1,49 @@
+body {
+  background: #ccc; }
+
+.space {
+  height: 100px;
+  width: 100%;
+  background: #D32A37;
+  margin-bottom: 10px; }
+
+.articulo {
+  background: #f2f2f2;
+  margin-bottom: 10px;
+  padding: 15px; }
+  .articulo .titulo {
+    color: #D32A37; }
+  .articulo .autor {
+    font-size: 30px; }
+  .articulo p a {
+    text-decoration: none;
+    color: blue; }
+  .articulo p span {
+    color: #D32A37;
+    font-size: 20px;
+    font-weight: bold; }
+
+.section {
+  width: 100%;
+  background: #f0efef;
+  padding: 10px; }
+  .section p a {
+    color: blue;
+    text-decoration: none; }
+    .section p a:hover {
+      color: #D32A37; }
+  .section span {
+    color: #D32A37;
+    font-size: 20px;
+    font-weight: bold; }
+  .section div {
+    text-align: center; }
+    .section div a {
+      text-align: center;
+      color: #D32A37;
+      text-decoration: none;
+      font-size: 25px; }
+      .section div a:hover {
+        text-decoration: underline; }
+
+/*# sourceMappingURL=estilos.css.map */

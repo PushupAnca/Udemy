@@ -1,0 +1,176 @@
+body{
+	background: #000 url(../img/fondo.jpg);
+	background-size:cover;
+	background-attachment: fixed;
+}
+/*img{
+	width: 20%;
+}*/
+header .logo img{
+	height: 50px;
+	border-radius: 40%;
+}
+
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.contenedor{
+	margin: auto;
+	width: 90%;
+	max-width: 1000px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+header{
+	width: 100%;
+	padding: 50px 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+header p{
+	color: #ffffff;
+	font-size: 30px;
+}
+nav.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 40px;
+    font-size: 18px;
+    margin-right: 40px;
+}
+nav.menu a:hover{
+	text-decoration: underline;
+	opacity: .5;
+}
+main{
+	background: #fff;
+	padding: 20px;
+	width: 70%;
+}
+main .thumb img{
+ width: 100%;
+ vertical-align: top;
+ height: 200px;
+}
+main article .thumb{
+	margin-bottom: 20px;
+}
+
+main article h2{
+	margin-bottom: 20px;
+	font-weight: normal;
+	font-size: 32px;
+}
+
+main p{
+	margin-bottom: 20px;
+	font-size: 14px;
+	line-height: 27px;
+}
+
+aside{
+	width: 30%;
+	background: #537dca;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+aside .ad{
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+	padding: 50px 0;
+	background: #4264a2;
+	/*margin-bottom: 20px;*/
+}
+
+footer{
+	background: #bfb7b7;
+	width: 100%;
+	opacity: .6;
+	display: flex;
+	padding: 20px 20px;
+	justify-content: space-between;
+	margin:20px 0;
+	color: #ffffff;
+}
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 40px;
+    font-size: 18px;
+    margin-right: 40px;
+}
+footer a:hover{
+	text-decoration: underline;
+	opacity: .5;
+}
+@media (max-width: 800px){
+  main{
+  	width: 100%;
+  }
+  aside{
+  	width: 100%;
+  	flex-direction: row;
+  }
+  aside .ad{
+  	width: 40%;
+  }
+
+  header{
+		flex-direction: column;
+		padding-bottom: 20px;
+	}
+	header .menu{
+		width: 100%;
+		background: rgba(255,255,255, .3);
+		text-align: center;
+		padding: 20px;
+	}
+	header .menu a{
+		margin:0 20px;
+	}
+	header .logo{
+		margin-bottom: 20px;
+	}
+	header p{
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 600px){
+	footer{
+		flex-direction: column;
+		text-align: center;
+	}
+	footer .autor{
+		order: 2;
+		text-align: center;
+		padding-top: 10px;
+	}
+    footer .redes{
+    	order: 1;
+    	text-align: center;
+    }
+    footer a{
+    	margin-right: 8px;
+    }
+}
+@media (max-width: 400px){
+	aside{
+		display: none;
+	}
+	header .menu a{
+		width: 100%;
+		display: flex;
+		margin: 10px 0 10px 0px;
+	}
+}

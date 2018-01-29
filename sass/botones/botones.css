@@ -1,0 +1,29 @@
+body {
+  background: #f2f2f2; }
+
+div {
+  width: 400px;
+  text-align: center;
+  margin-top: 20px; }
+
+.botones, .btn-rojo, .btn-verde, .btn-azul {
+  display: inline-block;
+  padding: 15px 20px;
+  background: none;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px; }
+
+.btn-rojo {
+  background: #ff2732; }
+
+.btn-verde {
+  background: #00B44A; }
+
+.btn-azul {
+  background: #0050B5; }
+
+h1 {
+  color: rgba(255, 128, 0, 0.5); }
+
+/*# sourceMappingURL=botones.css.map */

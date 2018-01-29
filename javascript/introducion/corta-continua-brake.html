@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no,
+	initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>break</title>
+	<!-- <link rel="stylesheet" href="css/.css"> -->
+</head>
+<body>
+<script type="text/javascript">
+
+// --------------------------------------> ciclo for in 
+var amigos = ['Ana', 'Cintia', 'Maria', 'Blanca', 'Noe']; 
+
+//------------------------------------for in y break desde el segundo nombre del array
+for (amigo in amigos) {
+	document.write(amigos[amigo] + '<br>')
+	if (amigos[amigo] == "Cintia") {
+		break;
+	}
+	document.write('Fin del ciclo')
+	document.write('<br>')
+}
+
+for (amigo in amigos) {
+	
+	if (amigos[amigo] == "Maria") {
+		continue;
+	}
+	document.write(amigos[amigo] + '<br>')
+	document.write('<br>')
+	// document.write('Continua despues de Maria')
+}
+
+</script>
+</body>
+</html>

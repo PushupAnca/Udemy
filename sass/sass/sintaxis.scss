@@ -1,0 +1,18 @@
+
+
+.articulo{
+	backgroud: red;
+
+	.titulo{
+		color: #ddd;	
+	}
+	.autor{
+			backgroud: #ccc;
+	}
+
+	p{
+		a{
+           color: green;
+		}
+	}
+}

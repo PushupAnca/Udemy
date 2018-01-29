@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no,
+	initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>For</title>
+	<!-- <link rel="stylesheet" href="css/.css"> -->
+</head>
+<body>
+<script type="text/javascript">
+
+
+//------------------ ciclo do for
+ 
+for (var i = 0; i <= 25; i++) {
+	document.write(i + " numero"  );
+    document.write("<br>");
+	console.log(i + " numero" )
+} 
+document.write("saca numeros de 0 a 25");
+document.write("<br>");
+
+ document.write("<br>");
+for (var i = 10; i >= 0; i--) {
+	document.write(i + " numero"  );
+    document.write("<br>");
+	console.log(i + " numero" )
+}
+document.write("saca numeros de 10 a 0");
+document.write("<br>");
+
+
+document.write("<br>");
+var meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septembrie', 'Cotubre', 'Noviembrie', 'Dicembre']
+
+for (var i = 0; i < meses.length; i++) {
+	document.write(i+1 + '.-'+ meses[i]); // si en (i+1 + '.-'+ meses[i]) no le ponemos la unidad 1 al i 'i+1' empieza desde el 0 
+	document.write("<br>");
+}
+
+
+document.write("<br>");
+document.write(" for(variable in objeto) --> variable mes, objeto- el nombre del array 'meses'");
+document.write("<br>");
+for(mes in meses){
+    document.write(meses[mes]);
+    document.write("<br>");
+}
+
+
+
+</script>
+</body>
+</html>
