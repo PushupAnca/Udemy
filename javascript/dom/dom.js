@@ -23,10 +23,6 @@ var contenedor = document.getElementById('contenedor');
 contenedor.appendChild(caja);
 
 
-
-
-
-
 //------------------------------MODIFICANDO LA CLASE O ID DEL ELEMENTO 
 
 //----modificar class y id

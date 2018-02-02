@@ -2,24 +2,24 @@
 $(document).ready(function(){
 
 $(".html").mouseenter(function(){
-	     $(this).animate({"padding-right": "10px"}, 100);
+	     // $(this).animate({"padding-right": "10px"}, 100);
 	    $(".cicloHtml").animate({"background-position":"0px"},100);
              console.log("entro aqui html")
 });
 
 $(".html").mouseleave(function(){
-     $(this).animate({"padding-right": "0px"}, 100);
+     // $(this).animate({"padding-right": "0px"}, 100);
 	 $(".cicloHtml").animate({"background-position":"-65px"},100);
 });
 
 $(".css").mouseenter(function(){
-	     $(this).animate({"padding-right": "10px"}, 1000);
+	     // $(this).animate({"padding-right": "10px"}, 1000);
 	    $(".cicloCss").animate({"background-position":"0px"},100);
              console.log("entro aqui ccs")
 });
 
 $(".css").mouseleave(function(){
-     $(this).animate({"padding-right": "0px"}, 1000);
+     // $(this).animate({"padding-right": "0px"}, 1000);
 	 $(".cicloCss").animate({"background-position":"-65px"},100);
 });
 

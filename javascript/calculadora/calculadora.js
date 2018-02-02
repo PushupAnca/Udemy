@@ -6,3 +6,5 @@ function suma(){
 
   document.getElementById('resultado').value = result; 
 }
+
+

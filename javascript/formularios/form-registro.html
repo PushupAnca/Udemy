@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario con registro</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="form-registro.css">
+	<link src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+	<div class="contenedor">
+		<form class="formulario" id="formulario" name='formulario'> 
+			<div class="contenedor-iputs">
+				<input type="text" name="nombre" placeholder="Nombre">
+				<input type="email" name="correo" placeholder='Correo'>
+
+				<div class="sexo">
+					<input type="radio" name="sexo" id="hombre" value="hombre">
+					<label class="label-radio" for="hombre">Hombre</label>
+
+					<input type="radio" name="sexo" id="mujer" value="mujer">
+					<label class="label-radio" for="mujer">Mujer</label>
+				</div>
+
+				<div class="terminos">
+					<input type="checkbox" name="terminos" id="terminos">
+					<label class="" for="terminos">Acepto Terminos y Condiciones</label>
+				</div>
+				<ul class="error" id="error">
+					
+				</ul>
+			</div>
+			<input type="submit" name="" class="btn" value="Registro">
+		</form>
+	</div>
+<script type="text/javascript" src="form-registro2.js"></script>
+</body>
+</html>

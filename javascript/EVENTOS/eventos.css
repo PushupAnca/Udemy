@@ -8,3 +8,10 @@
 	display: inline-block;
 
 }
+.div{
+	width: 500px;
+	margin: 20px;
+	padding: 10px;
+	font-family: Arial;
+	cursor: pointer; 
+}
