@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  -box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+body {
+  background-image: url("../img/picasion.gif");
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.navBar {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  margin-bottom: 10px; }
+
+.naV {
+  background: #7d7a7a;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  list-style: none; }
+
+.naV li {
+  padding: 10px;
+  font-size: 18px; }
+  .naV li:hover {
+    background: #3f3b3b; }
+
+.naV a {
+  color: #fff;
+  text-decoration: none; }
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 44px; }
+  .section1 .datosPersonales {
+    font-size: 19px; }
+
+.section1 .imgDatos {
+  text-align: right; }
+
+.ciclo {
+  background: url("../img/bg-2.jpg");
+  background-repeat: no-repeat;
+  background-position: 0px;
+  text-align: center;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #544d4d;
+  width: 8%; }
+
+.section4 .tecnico {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-bottom: 15px; }
+
+article:hover {
+  cursor: pointer; }
+
+/*# sourceMappingURL=new-cv.css.map */
