@@ -4,15 +4,15 @@
 var clases = ['html', 'css', 'java', 'boot'];
 
 var verdadero = clases > 4; 
-$(function(){
-    $('.tecnico').each(function crearCaja(){
-      var contenedorHtml = document.getElementById('html');
+  var contenedorHtml = document.getElementById('html');
       var contenedorCss = document.getElementById('css');
       var contenedorJava = document.getElementById('java');
       var contenedorBoot = document.getElementById('boot');
       var caja = document.createElement('div');
        caja.setAttribute('class', 'ciclo');
-       // var html = contenedorHtml.appendChild(caja); 
+
+$(function(){
+    $('.tecnico').each(function crearCaja(){
        
        for(var i = 0; i < 9 ; i++){
                 caja = document.createElement('div');
@@ -46,15 +46,14 @@ $(function(){
                 console.log('boot') 
                    console.log(i + 1+ '.- clases ' +clases);
           };
-          contenedorHtml.appendChild(caja);
+          // contenedorHtml.appendChild(caja);
           console.log(contenedorHtml);
-          contenedorJava.appendChild(caja); 
+          // contenedorJava.appendChild(caja); 
           console.log(contenedorJava);
-          contenedorCss.appendChild(caja);
+          // contenedorCss.appendChild(caja);
           console.log(contenedorCss);
-          contenedorBoot.appendChild(caja);
+          // contenedorBoot.appendChild(caja);
           console.log(contenedorBoot);
-    
          
   });
 });

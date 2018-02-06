@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Objetos</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+	// var carlos = {
+	// 	nombre : 'carlos',
+	// 	edad: 20,
+	// 	pais : 'España',
+	// 	bio : function(){
+	// 		return this.nombre + ' tiene' + this.edad + ' años';
+	// 	}
+	// };
+
+	// var cristina = {
+	// 	nombre :'cristina',
+	// 	edad : 25,
+	// 	pais: 'Meexico',
+	// 	bio : function(){
+	// 		return this.nombre + ' tiene' + this.edad + ' años';
+	// 	}
+	// }
+	// document.write(carlos.bio());
+	// document.write(cristina.bio());
+//-------------------------------------------------------------------------------------
+
+	function persona(nombre, edad, pais){
+		this.nombre = nombre;
+		this.edad = edad ;
+		this.pais = pais;
+	}
+
+	var papa = new persona('arturo', 35 , ' Mexico');
+
+	document.write(papa.nombre)
+
+
+		var string1 = "";
+		var object1 = {a: 1, b: 2, c: 3};
+
+		for (var property1 in object1) {
+		string1 = string1 + object1[property1];
+		}
+
+		console.log(string1);
+		// expected output: "123"
+
+
+		var array1 = ['a', 'b', 'c'];
+
+		array1.forEach(function(element) {
+		  console.log(element);
+		});
+
+
+		const items = ['item1', 'item2', 'item3'];
+        const copy = [];
+
+        for (let i=0; i<items.length; i++) {
+             copy.push(items[i])
+             console.log(copy)
+        }
+
+
+
+	</script>
+
+</body>
+</html>

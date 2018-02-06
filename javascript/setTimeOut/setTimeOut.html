@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Eventos de tiempo</title>
+</head>
+<body>
+	<button id="btn-iniciar">Iniciar</button>
+	<button id="btn-detener">detener</button>
+
+	<script type="text/javascript">
+
+		//--------------- SetTimeout
+		function saludo(){
+			console.log('saludos');
+			alert('holaa');
+		}
+		 // var tiempo = setTimeout(saludo, 1000); 
+		 // clearTimeout(tiempo); // nunca se ejecuta
+		
+		// document.getElementById('btn-iniciar').addEventListener('click', function(){
+		// 	setTimeout(saludo, 1000);
+		// });
+
+		//--------------- setInterval
+
+		var intervalo = setInterval(saludo, 1000)
+	     document.getElementById('btn-detener').addEventListener('click', function(){
+		clearInterval(intervalo);
+		});
+		
+		
+		
+
+
+
+
+	</script>
+
+</body>
+</html>

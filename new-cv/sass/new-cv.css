@@ -58,14 +58,41 @@ body {
   box-shadow: 1px 1px 10px #544d4d;
   width: 8%; }
 
-.section4 .tecnico {
+.tecnico {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
   margin-bottom: 15px; }
 
-article:hover {
-  cursor: pointer; }
+article {
+  width: 14%;
+  font-weight: 600; }
+  article:hover {
+    cursor: pointer; }
+
+.footer {
+  width: 100%;
+  background: #7d7a7a;
+  height: auto; }
+
+.redes-sociales .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around; }
+
+.redes-sociales .container .fa {
+  font-size: 38px;
+  padding: 10px; }
+
+.redes-sociales .container a {
+  padding: 10px;
+  border-radius: 50px; }
+  .redes-sociales .container a:hover {
+    background: #3c3838; }
+
+.redes-sociales .container .youtube .fa {
+  color: red; }
 
 /*# sourceMappingURL=new-cv.css.map */
