@@ -1,0 +1,178 @@
+
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+ <title>Bombilla</title>
+ <link rel="stylesheet" type="text/css" href="bombilla.css">
+ <link rel="stylesheet" type="text/css" href="styleOrr.css">
+ <link rel="stylesheet" type="text/css" href="styleAnd.css">
+
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+ </head>
+ <body>
+
+
+<div>
+<div class="tablas">
+	<table style="width:100%">
+  <div class="and">AND &&</div>
+  <tr>
+  	 <td>X1</td>
+    <td>X2</td> 
+    <td>Y</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>0</td> 
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>1</td> 
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>0</td> 
+    <td>0</td>
+  </tr>
+   <tr>
+    <td>1</td>
+    <td>1</td> 
+    <td>1</td>
+  </tr>
+</table>
+<table style="width:100%">
+  <div class="orr">ORR ||</div>
+  <tr>
+  	 <td>X1</td>
+    <td>X2</td> 
+    <td>Y</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>0</td> 
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>1</td> 
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>0</td> 
+    <td>1</td>
+  </tr>
+   <tr>
+    <td>1</td>
+    <td>1</td> 
+    <td>1</td>
+  </tr>
+</table>
+<table style="width:100%">
+  <div class="not">NOT !in, !X</div>
+  <tr>
+  	 <td>X1</td>
+    <td>X2</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>1</td> 
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>0</td> 
+  </tr>
+</table>
+</div>
+
+
+<div class="circuito">
+<div class="contInteruptoresAnd">
+    <div class="lineaAnd "></div>
+    <div class="interuptorAriba " id="interupAribaAnd"></div>
+    <div class="lineaAnd2 "></div>
+    <div class="interuptorAbajoAnd " id="interupAbajoAnd"></div>
+    <div class="lineaAnd3 "></div>
+
+    <div class="interuptorAbaAnd becul">
+        <div class="vertic"></div>
+        <div class="oris"></div>
+    </div>
+
+    <div class="inlineBlok">
+        <div class="bottones botton">
+          <button id="onAnd" value="">ON</button>
+          <button id="offAnd" value="">OFF</button>
+        </div>
+
+        <div class="bottones botton">
+          <button id="onAnd1" value="">ON</button>
+          <button id="offAnd2" value="">OFF</button>
+        </div>
+    </div>
+</div>
+<!-- contInteruptoresAnd -->
+
+<div class="contInteruptoresOrr">
+    <div class="lineaOrr "></div>
+    <div class="interuptorAribaOrr " id="interupAribaOrr"></div>
+    <div class="interuptorAbajoOrr " id="interupAbajoOrr"></div>
+    <div class="lineaOrr3 "></div>
+    <div class="interuptorOrr beculOrr">
+      	<div class="verticOrr"></div>
+      	<div class="orisOrr"></div>
+    </div>
+
+ 
+    <div class="verticalOrr"></div>
+    <div class="orizontalOrr"></div>
+
+    <div class="contInteruptoresOrr2">
+        <div class="lineaOrr "></div>
+        <div class="interuptorAribaOrr2 " id="interuptorAribaOrr2"></div>
+        <div class="interuptorAbajoOrr2 " id="interuptorAbajoOrr2"></div>
+
+        <div class="inlineBlok">
+        <div class="bottones botton">
+          <button id="onOrr1" value="">ON</button>
+          <button id="offOrr1" value="">OFF</button>
+        </div>
+
+        <div class="bottones botton">
+          <button id="onOrr2" value="">ON</button>
+          <button id="offOrr2" value="">OFF</button>
+        </div>
+    </div>
+    </div>
+</div>
+<!-- contInteruptoresOrr-->
+
+
+<div class="contInteruptoresNot">
+    <div class="lineaNot "></div>
+    <div class="interuptorAribaNot " id="interupAribaNot"></div>
+    <div class="interuptorAbajoNot " id="interupAbajoNot"></div>
+</div>
+</div>
+<!-- TABLAS -->
+
+
+	<div class="bec">
+    	<div  id ="billa" class="offBombilla"></div>
+    	<button id="" value="">ON</button>
+      <button id="" value="encender">ON</button>
+    	<button id="off" value="apagar">OFF</button>
+  </div>
+
+
+
+
+<script src="bombilla-2.js" type="text/javascript"></script>
+ 
+ </body>
+ </html>

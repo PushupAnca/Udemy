@@ -1,0 +1,171 @@
+html{
+	background-color: #352e2e;
+}
+main{
+	width: 200px;
+	margin: 20px auto;
+	margin-top: 200px;
+	text-align: center;
+
+}
+#billa{
+
+}
+#on{
+	margin-top: 20px;
+	background: #fff;
+}
+#off{
+	margin-left: 10px;
+	background: #fff;
+}
+.onBombilla{
+	width: 100%;
+	height: 200px;
+	background-image: url("pic_bulbon.gif");
+	background-repeat: no-repeat;
+}
+.offAnd{
+    background: rgb(250, 231, 59);
+}
+
+.transform{
+    transform: skewY(179deg);
+    top: 0px;
+    width: 58px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 43px;
+}
+.transform2{
+    transform: skewY(179deg);
+    top: 0px;
+    width: 58px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 142px;
+
+}
+.transformOrr{
+    transform: skewY(179deg);
+    top: -52px;
+    width: 58px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 43px;
+
+}
+.offBombilla{
+	width: 45%;
+	height: 200px;
+	background-image: url("pic_bulboff.gif");
+	background-repeat: no-repeat;
+}
+.bec{
+	width: 18%;
+    position: absolute;
+    right: 0px;
+    top: 300px;
+}
+.tablas{
+	position: absolute;
+    top: 50px;
+    left: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+table{
+	color: #fff;
+	border: 2px solid #fff;
+	margin: 10px;
+}
+
+.orr{
+	color: #fff;
+	position: absolute;
+    top: -27px;
+    left: 335px;
+    width: 100%;
+}
+.not{
+	color: #fff;
+	position: absolute;
+    top: -27px;
+    left: 667px;
+    width: 100%;
+}
+
+td{
+	border: 1px solid #fff;
+	width: 33%;
+}
+.circuito{
+    position: absolute;
+    left: 58px;
+    top: 40px;
+}
+.botton{
+    margin: 20px;
+}
+.bottones{
+    display: flex;
+}
+.inlineBlok{
+    display: flex;
+}
+.contInteruptoresNot{
+	color: #fff;
+	position: absolute;
+    top: 182px;
+    left: 667px;
+}
+
+.becul{
+	width: 24px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    left: 237px;
+    height: 20px;
+    top: -9px;
+    overflow: hidden;
+}
+.vertic{
+	transform: skewY(128deg);
+    height: 1px;
+    width: 100%;
+    background: #000;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+
+.oris{
+	transform: skewY(210deg);
+    height: 1px;
+    width: 100%;
+    background: #000;
+    margin-top: 6px;
+}
+
+.interuptorAriba{
+	width: 44px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 43px;
+    transform: skewY(145deg);
+    top: -15px;
+}
+
+.lineaNot{
+	width: 44px;
+    height: 1px;
+    background: #fff;
+}

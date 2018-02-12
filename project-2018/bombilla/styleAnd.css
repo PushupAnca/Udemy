@@ -1,0 +1,40 @@
+.interuptorAbajoAnd{
+	width: 44px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 143px;
+    transform: skewY(145deg);
+    top: -15px;
+}
+.and{
+	color: #fff;
+	position: absolute;
+    top: -27px;
+    left: 20px;
+    width: 100%;
+}
+.lineaAnd{
+	width: 44px;
+    height: 1px;
+    background: #fff;
+}
+.lineaAnd2{
+	width: 44px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 100px;
+}
+.lineaAnd3{
+	width: 113px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 189px;
+}
+.contInteruptoresAnd{
+	color: #fff;
+	position: absolute;
+    top: 182px;
+}

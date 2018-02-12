@@ -1,0 +1,80 @@
+
+.contInteruptoresOrr{
+	color: #fff;
+	position: absolute;
+    top: 182px;
+    left: 390px;
+}
+.lineaOrr{
+	width: 44px;
+    height: 1px;
+    background: #fff;
+}
+.interuptorAribaOrr2{
+	width: 44px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 46px;
+    transform: skewY(145deg);
+    top: -65px;
+}
+.interuptorAbajoOrr2{
+	width: 44px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 43px;
+    transform: skewY(145deg);
+    top: -15px;
+}
+.lineaOrr3 {
+    width: 113px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 124px;
+}
+.beculOrr {
+  width: 24px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    left: 168px;
+    height: 20px;
+    top: -9px;
+    overflow: hidden;
+}
+.verticOrr{
+	transform: skewY(128deg);
+    height: 1px;
+    width: 100%;
+    background: #000;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.orisOrr{
+	transform: skewY(210deg);
+    height: 1px;
+    width: 100%;
+    background: #000;
+    margin-top: 6px;
+}
+
+.verticalOrr{
+	width: 1px;
+	height: 50px;
+	background: #fff;
+}
+.orizontalOrr{
+	width: 20px;
+    height: 1px;
+    background: #fff;
+    margin-top: -25px;
+    margin-left: -21px;
+}
+.contInteruptoresOrr2{
+	color: #fff;
+    position: absolute;
+    top: 51px;
+}
