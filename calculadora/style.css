@@ -1,0 +1,32 @@
+
+
+
+main{
+	width: 800px;
+	margin: 15px auto;
+	border: 3px #9797b7 ridge; 
+	width: 250px;
+	text-align: center;
+    background-color: #cbccbd;
+}
+
+legend{
+	width: 100%;
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+form{
+	margin-bottom: 15px;
+}
+
+input{
+	margin: 0 3px;
+}
+#resultado, #resultado_2{
+	width: 100px;
+}
+#text{
+	width: 100%;
+    height: 30px;
+}
+

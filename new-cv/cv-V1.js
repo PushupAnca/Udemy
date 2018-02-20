@@ -1,13 +1,13 @@
 $( document ).ready(function() {
   $('.ciclo').css({'background-position': '-100px'});
     $("article").mouseenter(function() {
-        $(this).siblings(".ciclo").css({'background-position': '0px'});
-        $(this).siblings(".ciclo").siblings().last().css({'background-position': '-100px'});
+        $(this).siblings(".ciclo").animate({'background-position': '0px'}, 1000);
+        // $(this).siblings(".ciclo").siblings().last().animate({'background-position': '-100px'}, 1000);
 
         // console.log(this + 'hover')
     }); 
      $("article").mouseleave(function() {
-          $(this).siblings(".ciclo").css({'background-position': '-100px'});
+          $(this).siblings(".ciclo").animate({'background-position': '-100px'}, 1000);
          
     }); 
 });
@@ -74,7 +74,7 @@ function crearId(){
       })
   .each(function(dar) {
      $( dar , this ).html( "(id =" + dar);
-      for( var i = 0; i < 9 ; i++){
+      for( var i = 0; i > 8 ; i++){
         if (dar > 9) {
           i++;
         }
@@ -85,30 +85,30 @@ function crearId(){
       };                  
       
 });
-     
 };
 crearId();
 
 
-// var clases = {'html':'7', 'css': '7'} ;
 
-// $.each(clases, function( k, v ){
 
-// var cont = 0;
+var clases = {'html':'9', 'css': '5', 'java' : '3'} ;
 
-//       for( i = 0; i < v ; i++){
-//           var hijos = $('.'+k).children(".ciclo");
-//           $.each(hijos, function(){
-//             $(this).css({'background': 'red'});
-//             cont++;
-//             console.log('hola ' + k + '. esto es ' + i);
-//             if(cont == v ){
-//               console.log('entraaa');
-//                 return false;
-//             }
-//           });
-// // console.log('hola' + i + '. esto es ' + k);
+$.each(clases, function( k, v ){
+var cont = 0;
+      for( i = 0; i < v ; i++){
+          var hijos = $('.'+k).children(".ciclo");
+          $.each(hijos, function(){
+            // $(this).css({'background': 'red'});
+            cont++;
+            console.log('hola ' + k + '. esto es ' + i);
+            if(cont == v ){
+               $(this).css({'background': 'red'});
+              console.log('entraaa');
+                return true;
+            }
+          });
+// console.log('hola' + i + '. esto es ' + k);
 
-//       }; 
+      }; 
 
-// });
+});

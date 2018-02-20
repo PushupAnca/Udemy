@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<title>CALCULADORA</title>
+</head>
+
+<body>
+
+<main>
+	
+<form name="calculadora">
+
+
+ <legend> El resultado es</legend>
+
+<input id="resultado" type="textfield" name="ans" value="" size="40"><br> 
+<input id="resultado_2" type="textfield" name="ans" value="" size="40"><br>  
+<br>
+<input type="button" value="1" onclick="boton(1)">
+<input type="button" value="2" onclick="boton(2)">
+<input type="button" value="3" onclick="boton(3)"><br>
+ 
+<input type="button" value="4" onclick="boton(4)">
+<input type="button" value="5" onclick="boton(5)">
+<input type="button" value="6" onclick="boton(6)"><br>
+ 
+<input type="button" value="7" onclick="boton(7)">
+<input type="button" value="8" onclick="boton(8)">
+<input type="button" value="9" onclick="boton(9)"><br>
+
+ 
+<input type="button" value="0" onclick="boton(0)">
+<br>
+<input type="reset" value="Reset" class="reset">
+<br>
+<input type="button" value="=" onclick="realizarOperacion()">
+
+<div id="finalizar">Guardando el = </div>
+
+
+
+<input type="button" value="+" onclick="laOperacion('+')">
+<input type="button" value="-" onclick="laOperacion('-')">
+<input type="button" value="*" onclick="laOperacion('*')">
+<input type="button" value="/" onclick="laOperacion('/')">
+
+
+
+</form>
+</form>
+
+<div id="operacion">Aqui esta tú numero  </div>
+</main>
+
+
+
+
+
+ <script src="calculadora.js" type="text/javascript"></script>
+ 
+
+</body>
+</html>
